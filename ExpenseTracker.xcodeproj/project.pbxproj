@@ -14,6 +14,7 @@
 		865D3D3029351FEE00D69092 /* ExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D3D2F29351FEE00D69092 /* ExpenseTrackerTests.swift */; };
 		865D3D3A29351FEE00D69092 /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D3D3929351FEE00D69092 /* ExpenseTrackerUITests.swift */; };
 		865D3D3C29351FEE00D69092 /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D3D3B29351FEE00D69092 /* ExpenseTrackerUITestsLaunchTests.swift */; };
+		865D3D4A293523FC00D69092 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D3D49293523FC00D69092 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		865D3D3529351FEE00D69092 /* ExpenseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		865D3D3929351FEE00D69092 /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		865D3D3B29351FEE00D69092 /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		865D3D49293523FC00D69092 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		865D3D1129351FEC00D69092 = {
 			isa = PBXGroup;
 			children = (
+				865D3D49293523FC00D69092 /* Extensions.swift */,
 				865D3D1C29351FEC00D69092 /* ExpenseTracker */,
 				865D3D2E29351FEE00D69092 /* ExpenseTrackerTests */,
 				865D3D3829351FEE00D69092 /* ExpenseTrackerUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				865D3D2029351FEC00D69092 /* ContentView.swift in Sources */,
+				865D3D4A293523FC00D69092 /* Extensions.swift in Sources */,
 				865D3D1E29351FEC00D69092 /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
